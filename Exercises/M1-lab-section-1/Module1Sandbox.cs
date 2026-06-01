@@ -1,6 +1,6 @@
 using System;
 
-namespace TmsCore.LearningSandbox
+namespace TmsCore.Exercises.M1_Lab_Section_1
 {
     // Interface Contract (LO 1.3/1.4)
     public interface IStudentModel

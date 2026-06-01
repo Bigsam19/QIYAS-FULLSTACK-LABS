@@ -1,4 +1,5 @@
 ﻿using System;
 using TmsCore.Exercises;
 
-Exercise1.Run();
+// Switch the switchboard to run Exercise 2!
+Exercise2.Run();

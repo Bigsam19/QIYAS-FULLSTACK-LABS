@@ -1,6 +1,6 @@
 using System;
 
-namespace TmsCore.Exercises
+namespace TmsCore.Exercises.M1_Lab_Section_1
 {
     public static class Exercise1
     {
