@@ -1,14 +1,4 @@
 ﻿using System;
-using TmsCore.LearningSandbox;
+using TmsCore.Exercises;
 
-namespace TmsCore
-{
-    class Program
-    {
-        static void Main(string[] args)
-        {
-            // Execute our step-by-step practice code
-            Module1Sandbox.RunExercises();
-        }
-    }
-}
+Exercise1.Run();

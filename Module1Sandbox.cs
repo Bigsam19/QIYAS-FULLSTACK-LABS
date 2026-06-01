@@ -29,7 +29,7 @@ namespace TmsCore.LearningSandbox
 
     public static class Module1Sandbox
     {
-        public static void RunExercises()
+        public static void RunExercisses()
         {
             Console.WriteLine("=== Running Module 1 Exercises ===");
 
