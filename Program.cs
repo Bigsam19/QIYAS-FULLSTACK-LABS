@@ -1,5 +1,5 @@
 ﻿using System;
-using TmsCore.Exercises;
+using TmsCore.Exercises.M1_Lab_Section_1;
 
-// Switch the switchboard to run Exercise 2!
-Exercise2.Run();
+// Switch the system to run Exercise 3!
+Exercise3.Run();
