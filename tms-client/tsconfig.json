@@ -2,11 +2,15 @@
   "compilerOptions": {
     "target": "es2025",
     "module": "nodenext",
+    "moduleResolution": "nodenext",
+    "outDir": "./dist",                // <-- Redirects compiled .js files to the dist folder
+    "rootDir": "./",                  // <-- Tells tsc where your source code starts
     "strict": true,
     "noImplicitAny": true,
     "strictNullChecks": true,
     "noUncheckedIndexedAccess": true,
-    "outDir": "./dist"
-  },
-  "include": ["**/*.ts"]
+    "esModuleInterop": true,
+    "forceConsistentCasingInFileNames": true,
+    "skipLibCheck": true
+  }
 }
