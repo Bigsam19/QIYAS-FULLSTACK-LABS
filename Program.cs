@@ -1,15 +1,13 @@
 ﻿using System;
 using System.Threading.Tasks;
-// Bring in your exercises namespace
-using TmsCore.Exercises; 
+using TmsCore.Exercises; // <-- This tells the compiler where to look!
 
 Console.WriteLine("=============================================");
 Console.WriteLine("   TMS Core Learning Management Dashboard   ");
 Console.WriteLine("=============================================");
 
-// Uncomment whatever lab exercise you want to run locally:
-// await Exercise1_NullSafety.Run();
-// await Exercise2_PrimitiveTypes.Run();
-// await Exercise3_Encapsulation.Run();
+// 1. Keep your existing Exercise 6 call intact:
+await Exercise6Async.Run();
 
-await Exercise6Async.Run(); // Currently Active Exercise
+// 2. Run Exercise 7 right below it cleanly:
+Exercise7Exceptions.Run();
