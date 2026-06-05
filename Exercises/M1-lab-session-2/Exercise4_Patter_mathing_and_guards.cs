@@ -22,13 +22,13 @@ namespace M1LabSession2
         }
     }
 
-    public class Student
-    {
-        public string Id { get; set; } = string.Empty;
-        public string Name { get; set; } = string.Empty;
-        public int Age { get; set; }
-        public decimal GPA { get; set; }
-    }
+    // public class Student
+    // {
+    //     public string Id { get; set; } = string.Empty;
+    //     public string Name { get; set; } = string.Empty;
+    //     public int Age { get; set; }
+    //     public decimal GPA { get; set; }
+    // }
 
     public class Course
     {
