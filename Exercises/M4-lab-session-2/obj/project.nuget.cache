@@ -1,0 +1,25 @@
+{
+  "version": 2,
+  "dgSpecHash": "u1+sIipZKzE=",
+  "success": true,
+  "projectFilePath": "C:\\Users\\CSUG\\qiyas-fullstack-labs\\qiyas-fullstack-labs\\Exercises\\M4-lab-session-2\\M4-lab-session-2.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\CSUG\\.nuget\\packages\\microsoft.aspnetcore.openapi\\10.0.8\\microsoft.aspnetcore.openapi.10.0.8.nupkg.sha512",
+    "C:\\Users\\CSUG\\.nuget\\packages\\microsoft.extensions.logging\\10.0.8\\microsoft.extensions.logging.10.0.8.nupkg.sha512",
+    "C:\\Users\\CSUG\\.nuget\\packages\\microsoft.openapi\\2.0.0\\microsoft.openapi.2.0.0.nupkg.sha512"
+  ],
+  "logs": [
+    {
+      "code": "NU1510",
+      "level": "Warning",
+      "message": "PackageReference Microsoft.Extensions.Logging will not be pruned. Consider removing this package from your dependencies, as it is likely unnecessary.",
+      "projectPath": "C:\\Users\\CSUG\\qiyas-fullstack-labs\\qiyas-fullstack-labs\\Exercises\\M4-lab-session-2\\M4-lab-session-2.csproj",
+      "warningLevel": 1,
+      "filePath": "C:\\Users\\CSUG\\qiyas-fullstack-labs\\qiyas-fullstack-labs\\Exercises\\M4-lab-session-2\\M4-lab-session-2.csproj",
+      "libraryId": "Microsoft.Extensions.Logging",
+      "targetGraphs": [
+        "net10.0"
+      ]
+    }
+  ]
+}

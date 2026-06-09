@@ -1,13 +1,18 @@
-﻿using System;
-using System.Threading.Tasks;
-using TmsCore.Exercises; // <-- This tells the compiler where to look!
+﻿using Microsoft.AspNetCore.Builder;
+using Microsoft.Extensions.DependencyInjection;
 
-Console.WriteLine("=============================================");
-Console.WriteLine("   TMS Core Learning Management Dashboard   ");
-Console.WriteLine("=============================================");
+var builder = WebApplication.CreateBuilder(args);
 
-// 1. Keep your existing Exercise 6 call intact:
-await Exercise6Async.Run();
+// --- Add services to the container ---
+builder.Services.AddControllers();
 
-// 2. Run Exercise 7 right below it cleanly:
-Exercise7Exceptions.Run();
+// 🚀 REGISTER YOUR ENROLLMENT SERVICE HERE:
+builder.Services.AddSingleton<IEnrollmentService, EnrollmentService>();
+
+var app = builder.Build();
+
+// --- Configure the HTTP request pipeline ---
+app.UseAuthorization();
+app.MapControllers();
+
+app.Run();
